@@ -1,0 +1,91 @@
+.border {
+    border: 5px solid #931;
+    padding: 20px;
+
+}
+
+.border-2 {
+    margin-top: 10px;
+    padding: 30px;
+    border: 2px dotted #931;
+}
+
+.border-left {
+    border-left: 3px solid #931;
+    background-color: #333;
+    color: #ffffff;
+    padding: 25px;
+    margin-top: 10px;
+}
+
+.border-bottom {
+    border-bottom: 5px double #399;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.border-radius {
+    background-color: #931;
+    border: 4px solid blue;
+    color: aqua;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.border-radius-2 {
+    padding: 15px;
+    margin-top: 10px;
+background-color: black;
+color: #ffffff;
+border-radius: 15px;
+
+}
+.margin{
+background-color: rgb(241, 144, 112);
+margin: 10px;
+
+
+}
+.margin-top{
+background-color: #399;
+margin-top: 50px;
+padding: 10px;
+
+}
+.margin-shorthand{
+background-color: brown;
+margin: 5px 10px 15px 20px;    
+}
+.box-model{
+   
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 100px;
+
+}
+
+/* TRANSFORM - TEXT */
+.upper{
+text-transform: uppercase;
+
+}
+.lower{
+text-transform: lowercase;
+
+}
+
+/* letter-spacing*/
+.spacing{
+letter-spacing: 10px;
+
+}
+
+
+
+
