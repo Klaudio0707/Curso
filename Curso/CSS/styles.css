@@ -85,7 +85,14 @@ text-transform: lowercase;
 letter-spacing: 10px;
 
 }
+.block{
+display:flex; 
 
+width: 10px;
+text-align: center;
+align-items: center;
+
+}
 
 
 
