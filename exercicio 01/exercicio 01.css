@@ -4,3 +4,64 @@ color: blue;
 text-align: center;
 
 }
+
+
+.static{
+position: static;
+background-color: #391;
+color: #fff;
+width: 100px;
+height: 100px;
+
+}
+.relative{
+    position: relative;
+    background-color: rgb(44, 44, 44);
+    color: #fff;
+    width: 100px;
+    height: 100px;
+top: 100px;
+left: 40px;
+
+}
+
+.absoluto{
+background-color: rgb(148, 39, 39);
+color: #fff;
+width: 100px;
+height: 100px;
+border: 1px solid green;
+position: sticky;
+top: 10px;
+} 
+
+.zindex3,
+.zindex4,
+.zindex5{
+margin-top: 10px;    
+width: 150px;
+height: 100px;
+background-color: #123;
+position: absolute;
+
+}
+
+
+.zindex3{
+    top: 0;
+    left: 0;
+    background-color: rgb(153, 99, 17);
+    z-index: 3;
+}
+.zindex4{
+top: 10px;
+left: 10px;
+background-color: rgb(17, 87, 153);
+z-index: 20;
+}
+.zindex5{
+top: 40px;
+left: 40px;
+background-color: rgb(103, 109, 101);
+z-index: 1;
+}
