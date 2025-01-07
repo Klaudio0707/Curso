@@ -15,3 +15,10 @@
 // }
 // parOuImpar(5);
 // parOuImpar(10);
+
+const raizQuadrada = (x) => {
+return x*x
+
+}
+console.log(raizQuadrada(4));
+const raizQuadrada2 = (x)
